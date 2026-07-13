@@ -11,7 +11,7 @@ package com.dgm.roadmap.challenge000;
  * - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
  */
 public class Challenge000 {
-    static void main(String[] args) {
+    static void main() {
         //Java website: https://www.java.com/
 
         //This is a single line comment
