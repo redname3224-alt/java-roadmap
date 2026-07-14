@@ -15,12 +15,11 @@ The objective is to practice Java operators and the main control flow structures
 - Bitwise operators
 - Conditional (ternary) operator
 - Type operator (`instanceof`)
-- if / else
-- switch
-- for
-- Enhanced for (for-each)
-- do-while
-
+- `if` / `else`
+- `switch`
+- `for`
+- Enhanced `for` (for-each)
+- `do-while`
 
 ## Extra challenge
 
