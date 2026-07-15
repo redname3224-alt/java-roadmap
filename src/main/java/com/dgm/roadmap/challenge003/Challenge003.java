@@ -30,7 +30,7 @@ public class Challenge003 {
         return valid;
     }
 
-    public static String getContact(Map<String, String>map,String name){
+    public static String getPhoneNumber(Map<String, String>map, String name){
         return map.get(name);
     }
 
@@ -72,6 +72,17 @@ public class Challenge003 {
         Map<String, String> contactBook = new TreeMap<>();
         int option=0;
         String name,phone;
+
+        // Arrays have a fixed size, so elements cannot be removed.
+        // A value can only be replaced.
+        System.out.println("===== ARRAY EXAMPLE =====");
+        String[] array = {"John", "Mark", "Jane"};
+        System.out.println("Original array: " + Arrays.toString(array));
+        array[1] = "Antoine";
+        System.out.println("After update: " + Arrays.toString(array));
+        Arrays.sort(array);
+        System.out.println("After sorting: " + Arrays.toString(array));
+        System.out.println();
 
         //LISTS EXAMPLE
         System.out.println("===== ARRAYLIST EXAMPLE =====");
@@ -141,7 +152,7 @@ public class Challenge003 {
                     case 1:
                         System.out.println("Enter contact name: ");
                         name = input.nextLine();
-                        phone = getContact(contactBook,name);
+                        phone = getPhoneNumber(contactBook,name);
 
                         if(phone!=null){
                             System.out.println(name+":"+phone);
